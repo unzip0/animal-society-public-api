@@ -20,11 +20,14 @@
     "test:e2e": "jest --config ./test/jest-e2e.json"
   },
   "dependencies": {
-    "@nestjs/common": "^10.0.0",
-    "@nestjs/core": "^10.0.0",
+    "@nestjs/common": "^10.3.9",
+    "@nestjs/core": "^10.3.9",
+    "@nestjs/cqrs": "^10.2.7",
     "@nestjs/platform-express": "^10.0.0",
-    "reflect-metadata": "^0.2.0",
-    "rxjs": "^7.8.1"
+    "@types/uuid-validate": "^0.0.3",
+    "reflect-metadata": "^0.2.2",
+    "rxjs": "^7.8.1",
+    "uuid": "^10.0.0"
   },
   "devDependencies": {
     "@nestjs/cli": "^10.0.0",
